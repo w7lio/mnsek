@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+
+    <link rel="icon" href="icon/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="icon/icon.png">
+
+    <link rel="stylesheet" type="text/css" href="fonts/gamefont.css">
+
+    <title>ヤリステメスブター v4.00</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: black;
+            touch-action: none;
+            overscroll-behavior: none;
+        }
+
+        #mobile-controls {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            pointer-events: none;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        @media (pointer: coarse) {
+            #mobile-controls {
+                display: block;
+            }
+        }
+
+        /* D-PAD */
+
+        .dpad {
+            position: absolute;
+            left: max(20px, env(safe-area-inset-left));
+            bottom: max(25px, env(safe-area-inset-bottom));
+            width: 156px;
+            height: 156px;
+            pointer-events: auto;
+        }
+
+        .control {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background: rgba(55, 55, 55, 0.78);
+            border: 2px solid rgba(255,255,255,0.35);
+            border-radius: 12px;
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            touch-action: none;
+            user-select: none;
+            -webkit-user-select: none;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+        }
+
+        .control.pressed {
+            background: rgba(180, 180, 180, 0.85);
+            border-color: white;
+            transform: scale(0.94);
+        }
+
+        .up {
+            width: 50px;
+            height: 50px;
+            left: 53px;
+            top: 0;
+        }
+
+        .down {
+            width: 50px;
+            height: 50px;
+            left: 53px;
+            bottom: 0;
+        }
+
+        .left {
+            width: 50px;
+            height: 50px;
+            left: 0;
+            top: 53px;
+        }
+
+        .right {
+            width: 50px;
+            height: 50px;
+            right: 0;
+            top: 53px;
+        }
+
+        .center {
+            position: absolute;
+            width: 48px;
+            height: 48px;
+            left: 54px;
+            top: 54px;
+            background: rgba(25,25,25,0.55);
+            border-radius: 50%;
+        }
+
+        /* ACTION BUTTONS */
+
+        .action-buttons {
+            position: absolute;
+            right: max(25px, env(safe-area-inset-right));
+            bottom: max(35px, env(safe-area-inset-bottom));
+            width: 155px;
+            height: 125px;
+            pointer-events: none;
+        }
+
+        .action {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            pointer-events: auto;
+            font-size: 19px;
+        }
+
+        .ok {
+            position: absolute;
+            right: 0;
+            bottom: 15px;
+            width: 75px;
+            height: 75px;
+            background: rgba(35, 125, 65, 0.85);
+        }
+
+        .cancel {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(160, 55, 55, 0.85);
+        }
+
+        .menu {
+            position: absolute;
+            left: 65px;
+            top: -38px;
+            width: 48px;
+            height: 48px;
+            font-size: 15px;
+            border-radius: 50%;
+            background: rgba(55, 85, 160, 0.85);
+        }
+
+        @media (max-height: 450px) {
+            .dpad {
+                transform: scale(0.8);
+                transform-origin: bottom left;
+                bottom: 12px;
+            }
+
+            .action-buttons {
+                transform: scale(0.8);
+                transform-origin: bottom right;
+                bottom: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: black">
+
+    <script src="js/libs/pixi.js"></script>
+    <script src="js/libs/pixi-tilemap.js"></script>
+    <script src="js/libs/pixi-picture.js"></script>
+    <script src="js/libs/fpsmeter.js"></script>
+    <script src="js/libs/lz-string.js"></script>
+    <script src="js/libs/iphone-inline-video.browser.js"></script>
+
+    <script src="js/rpg_core.js"></script>
+    <script src="js/rpg_managers.js"></script>
+    <script src="js/rpg_objects.js"></script>
+    <script src="js/rpg_scenes.js"></script>
+    <script src="js/rpg_sprites.js"></script>
+    <script src="js/rpg_windows.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- MOBILE CONTROLS -->
+
+    <div id="mobile-controls">
+
+        <div class="dpad">
+
+            <div class="control up" data-key="up">▲</div>
+
+            <div class="control down" data-key="down">▼</div>
+
+            <div class="control left" data-key="left">◀</div>
+
+            <div class="control right" data-key="right">▶</div>
+
+            <div class="center"></div>
+
+        </div>
+
+        <div class="action-buttons">
+
+            <div class="control action cancel" data-key="cancel">
+                B
+            </div>
+
+            <div class="control action ok" data-key="ok">
+                A
+            </div>
+
+            <div class="control menu" data-key="menu">
+                MENU
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TOUCH INPUT SCRIPT -->
+
+    <script>
+    (function() {
+        "use strict";
+
+        var controls = document.getElementById("mobile-controls");
+
+        var activePointers = {};
+
+        function setKey(key, pressed) {
+            if (typeof Input === "undefined") return;
+
+            if (!Input._currentState) return;
+
+            Input._currentState[key] = pressed;
+        }
+
+        function releaseAll() {
+            Object.keys(activePointers).forEach(function(id) {
+                var key = activePointers[id];
+
+                setKey(key, false);
+
+                var element = controls.querySelector(
+                    '[data-key="' + key + '"]'
+                );
+
+                if (element) {
+                    element.classList.remove("pressed");
+                }
+            });
+
+            activePointers = {};
+        }
+
+        controls.querySelectorAll("[data-key]").forEach(function(button) {
+
+            var key = button.dataset.key;
+
+            button.addEventListener("pointerdown", function(event) {
+
+                event.preventDefault();
+                event.stopPropagation();
+
+                if (activePointers[event.pointerId]) return;
+
+                activePointers[event.pointerId] = key;
+
+                setKey(key, true);
+
+                button.classList.add("pressed");
+
+                try {
+                    button.setPointerCapture(event.pointerId);
+                } catch (e) {}
+
+            });
+
+            function release(event) {
+                if (activePointers[event.pointerId] !== key) return;
+
+                delete activePointers[event.pointerId];
+
+                var stillPressed = Object.values(activePointers).includes(key);
+
+                if (!stillPressed) {
+                    setKey(key, false);
+                    button.classList.remove("pressed");
+                }
+
+                event.preventDefault();
+                event.stopPropagation();
+            }
+
+            button.addEventListener("pointerup", release);
+            button.addEventListener("pointercancel", release);
+            button.addEventListener("lostpointercapture", release);
+
+            button.addEventListener("contextmenu", function(event) {
+                event.preventDefault();
+            });
+
+        });
+
+        window.addEventListener("blur", releaseAll);
+
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) releaseAll();
+        });
+
+    })();
+    </script>
+
+</body>
+</html>
