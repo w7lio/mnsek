@@ -1,0 +1,31 @@
+@font-face {
+    font-family: GameFont;
+    src: url("mplus-1m-medium.ttf");
+}
+@font-face {
+    font-family: GameFont_CN;
+    src: url("NotoSansSC-Regular.ttf");
+}
+@font-face {
+    font-family: GameFont_KO;
+    src: url("NotoSansKR-Regular.ttf");
+}
+@font-face {
+    font-family: Makinas;
+    src: url("Makinas-4-Flat.otf");
+}
+@font-face {
+    font-family: Makinas_S;
+    src: url("Makinas-4-Square.otf");
+}
+@font-face {
+    font-family: kdam;
+    src: url("KdamThmorPro-Regular.ttf");
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}

@@ -1,0 +1,438 @@
+﻿{
+  "Combo_Base": [
+    {
+      "ComboList": [],
+      "Name": "ttt"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_191_2",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 15,
+          "Ptc_List": [
+            {
+              "Name": "btl_191",
+              "ZureX": 80,
+              "ZureY": 30
+            }
+          ]
+        },
+        {
+          "Do_Flame": 25,
+          "Ptc_List": [
+            {
+              "Name": "btl_191",
+              "ZureX": -120,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 35,
+          "Ptc_List": [
+            {
+              "Name": "btl_191",
+              "ZureX": 90,
+              "ZureY": -140
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb191"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_192",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 5,
+          "Ptc_List": [
+            {
+              "Name": "btl_192",
+              "ZureX": 0,
+              "ZureY": -70
+            }
+          ]
+        },
+        {
+          "Do_Flame": 11,
+          "Ptc_List": [
+            {
+              "Name": "btl_192",
+              "ZureX": 0,
+              "ZureY": 70
+            }
+          ]
+        },
+        {
+          "Do_Flame": 10,
+          "Ptc_List": [
+            {
+              "Name": "btl192_2",
+              "ZureX": 400,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 14,
+          "Ptc_List": [
+            {
+              "Name": "btl192_3",
+              "ZureX": 200,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 18,
+          "Ptc_List": [
+            {
+              "Name": "btl192_2",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 22,
+          "Ptc_List": [
+            {
+              "Name": "btl192_3",
+              "ZureX": -200,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 26,
+          "Ptc_List": [
+            {
+              "Name": "btl192_2",
+              "ZureX": -400,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb192"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_195",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 3,
+          "Ptc_List": [
+            {
+              "Name": "btl_195_2",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb195"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_198",
+              "ZureX": 0,
+              "ZureY": 0
+            },
+            {
+              "Name": "btl_198_2",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb198"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 1032,
+              "ZureY": -142
+            }
+          ]
+        },
+        {
+          "Do_Flame": 5,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 860,
+              "ZureY": 110
+            }
+          ]
+        },
+        {
+          "Do_Flame": 10,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 688,
+              "ZureY": -142
+            }
+          ]
+        },
+        {
+          "Do_Flame": 15,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 516,
+              "ZureY": 110
+            }
+          ]
+        },
+        {
+          "Do_Flame": 20,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 344,
+              "ZureY": -142
+            }
+          ]
+        },
+        {
+          "Do_Flame": 25,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 172,
+              "ZureY": 110
+            }
+          ]
+        },
+        {
+          "Do_Flame": 30,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": 0,
+              "ZureY": -142
+            }
+          ]
+        },
+        {
+          "Do_Flame": 35,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": -172,
+              "ZureY": 110
+            }
+          ]
+        },
+        {
+          "Do_Flame": 40,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": -344,
+              "ZureY": -142
+            }
+          ]
+        },
+        {
+          "Do_Flame": 45,
+          "Ptc_List": [
+            {
+              "Name": "btl_198_3",
+              "ZureX": -516,
+              "ZureY": 110
+            }
+          ]
+        }
+      ],
+      "Name": "CmbOwari"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 10,
+          "Ptc_List": [
+            {
+              "Name": "btl_197_6",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 20,
+          "Ptc_List": [
+            {
+              "Name": "btl_197_6",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 30,
+          "Ptc_List": [
+            {
+              "Name": "btl_197_6",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 40,
+          "Ptc_List": [
+            {
+              "Name": "btl_197_6",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Bim197"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": 100,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 10,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 15,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": -100,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb202"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": 100,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 10,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 15,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": -100,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb203"
+    },
+    {
+      "ComboList": [
+        {
+          "Do_Flame": 0,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": 100,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 10,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": 0,
+              "ZureY": 0
+            }
+          ]
+        },
+        {
+          "Do_Flame": 15,
+          "Ptc_List": [
+            {
+              "Name": "btl_203",
+              "ZureX": -100,
+              "ZureY": 0
+            }
+          ]
+        }
+      ],
+      "Name": "Cmb204"
+    }
+  ]
+}

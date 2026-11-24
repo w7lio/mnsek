@@ -1,0 +1,3193 @@
+﻿{
+  "ptc_Syuruis": [
+    {
+      "Name": "character",
+      "ptc_Datas": [
+        {
+          "Name": "YumeEff_1",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "YumeEff_Ye",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "TameAtk",
+          "Setumei": "溜め攻撃準備",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Ticket_Make",
+          "Setumei": "チケット作竜",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Attack_1",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "weather",
+      "ptc_Datas": []
+    },
+    {
+      "Name": "screen",
+      "ptc_Datas": []
+    },
+    {
+      "Name": "region",
+      "ptc_Datas": []
+    },
+    {
+      "Name": "---",
+      "ptc_Datas": [
+        {
+          "Name": "Antena_1",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Hakase_1",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "Effect",
+      "ptc_Datas": [
+        {
+          "Name": "SinkaEff",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlnt1"
+            }
+          ]
+        },
+        {
+          "Name": "SinkaCng",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_Sinka"
+            }
+          ]
+        },
+        {
+          "Name": "BollEffect",
+          "Setumei": "チケット作竜",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zBall"
+            }
+          ]
+        },
+        {
+          "Name": "BollEff_Map",
+          "Setumei": "チケット作竜",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zBall"
+            }
+          ]
+        },
+        {
+          "Name": "Effect_Buff",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zBuff"
+            }
+          ]
+        },
+        {
+          "Name": "Effect_Down",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zDeBuff"
+            }
+          ]
+        },
+        {
+          "Name": "Effect_Get",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zBallSet"
+            }
+          ]
+        },
+        {
+          "Name": "Effect_Tokusei",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Effect_Kaihuku",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "StarTrn",
+          "Setumei": "スタートレーナー戦闘開始用",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "StarTrnStart",
+          "Setumei": "スタートレーナー戦闘開始用2",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "CrCharge",
+          "Setumei": "クリスタラーチャージ",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "CrShot",
+          "Setumei": "クリスタルショット",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "CrBefShot",
+          "Setumei": "クリスタルショット（予兆）",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Last1Eff",
+          "Setumei": "第一形態撃破時",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "TenseiFire",
+          "Setumei": "転生の炎",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight3"
+            }
+          ]
+        },
+        {
+          "Name": "LevelUp",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_LevelUp"
+            }
+          ]
+        },
+        {
+          "Name": "TrLvUp",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "DLC2BossEff",
+          "Setumei": "第一形態撃破時",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff",
+      "ptc_Datas": [
+        {
+          "Name": "btl_1",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_2",
+          "Setumei": "",
+          "ZureX": -70,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_3",
+          "Setumei": "",
+          "ZureX": -100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_4",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_5",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_6",
+          "Setumei": "",
+          "ZureX": 100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Hit08-1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_7",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_8",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_8"
+            }
+          ]
+        },
+        {
+          "Name": "btl_9",
+          "Setumei": "",
+          "ZureX": 30,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Hit01-2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_10",
+          "Setumei": "",
+          "ZureX": -80,
+          "ZureY": -20,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_10"
+            }
+          ]
+        },
+        {
+          "Name": "btl_11",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_11"
+            }
+          ]
+        },
+        {
+          "Name": "btl_12",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Hit08-1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_13",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_13"
+            }
+          ]
+        },
+        {
+          "Name": "btl_14",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_14"
+            }
+          ]
+        },
+        {
+          "Name": "btl_15",
+          "Setumei": "オーラブラスト",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zele"
+            },
+            {
+              "DoFlame": 0,
+              "SeName": "Hit08-1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_16",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zfire5"
+            },
+            {
+              "DoFlame": 0,
+              "SeName": "BO-taihou09"
+            }
+          ]
+        },
+        {
+          "Name": "btl_17",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_18",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_19",
+          "Setumei": "",
+          "ZureX": -30,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_20",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_21",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_22",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_8"
+            }
+          ]
+        },
+        {
+          "Name": "btl_23",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_24",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_25",
+          "Setumei": "",
+          "ZureX": -100,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_26",
+          "Setumei": "",
+          "ZureX": -50,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_27",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_28",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zSanda1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_29",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Explosion1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_30",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zfire4"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff2",
+      "ptc_Datas": [
+        {
+          "Name": "btl_31",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zWind4"
+            },
+            {
+              "DoFlame": 0,
+              "SeName": "BP-kougeki04"
+            }
+          ]
+        },
+        {
+          "Name": "btl_32",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_33",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_34",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_35",
+          "Setumei": "",
+          "ZureX": -40,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_36",
+          "Setumei": "",
+          "ZureX": -150,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_37",
+          "Setumei": "",
+          "ZureX": -250,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Attack2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_38",
+          "Setumei": "",
+          "ZureX": -100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_39",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGas1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_40",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_41",
+          "Setumei": "",
+          "ZureX": -100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Ice4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_42",
+          "Setumei": "",
+          "ZureX": -50,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_spell_freeze_small_04"
+            }
+          ]
+        },
+        {
+          "Name": "btl_43",
+          "Setumei": "",
+          "ZureX": -30,
+          "ZureY": -50,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_spell_impact_icicle_hits4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_44",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": -120,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_frost_01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_45",
+          "Setumei": "",
+          "ZureX": -100,
+          "ZureY": -150,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_frost_01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_46",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_Hissatu"
+            }
+          ]
+        },
+        {
+          "Name": "btl_47",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zWater3"
+            },
+            {
+              "DoFlame": 10,
+              "SeName": "ice_frost_01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_48",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 10,
+              "SeName": "_zdark6"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "N_Light"
+            }
+          ]
+        },
+        {
+          "Name": "btl_49",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater3"
+            },
+            {
+              "DoFlame": 15,
+              "SeName": "_zWater3"
+            },
+            {
+              "DoFlame": 30,
+              "SeName": "_zdark1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_50",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_51",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_52",
+          "Setumei": "",
+          "ZureX": 100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_53",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_54",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_55",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_56",
+          "Setumei": "",
+          "ZureX": 100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_57",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlnt1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_58",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlantHell"
+            }
+          ]
+        },
+        {
+          "Name": "btl_59",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlantHell"
+            }
+          ]
+        },
+        {
+          "Name": "btl_60",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zHellCast"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff3",
+      "ptc_Datas": [
+        {
+          "Name": "btl_61",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlanta"
+            }
+          ]
+        },
+        {
+          "Name": "btl_62",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlnt1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_63",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire5"
+            },
+            {
+              "DoFlame": 2,
+              "SeName": "BO-kick06"
+            }
+          ]
+        },
+        {
+          "Name": "btl_64",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 2,
+              "SeName": "_zbtl_13"
+            },
+            {
+              "DoFlame": 30,
+              "SeName": "_zbtl_13"
+            },
+            {
+              "DoFlame": 60,
+              "SeName": "_zbtl_13"
+            }
+          ]
+        },
+        {
+          "Name": "btl_65",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_66",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_67",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_68",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_10"
+            }
+          ]
+        },
+        {
+          "Name": "btl_69",
+          "Setumei": "",
+          "ZureX": -30,
+          "ZureY": -30,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_8"
+            }
+          ]
+        },
+        {
+          "Name": "btl_70",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zSpike"
+            }
+          ]
+        },
+        {
+          "Name": "btl_71",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGrnd1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_72",
+          "Setumei": "",
+          "ZureX": -50,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zRockFall"
+            }
+          ]
+        },
+        {
+          "Name": "btl_73",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGrnd1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_74",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Explosion1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_75",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Hit08-2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_76",
+          "Setumei": "",
+          "ZureX": 100,
+          "ZureY": -100,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_frost_01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_77",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlantHell"
+            }
+          ]
+        },
+        {
+          "Name": "btl_78",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlnt1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_79",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_8"
+            }
+          ]
+        },
+        {
+          "Name": "btl_80",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGas1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_81",
+          "Setumei": "",
+          "ZureX": -100,
+          "ZureY": -150,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "ice_Hissatu"
+            }
+          ]
+        },
+        {
+          "Name": "btl_82",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zSanda1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_83",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "Hit08-2"
+            },
+            {
+              "DoFlame": 10,
+              "SeName": "Hit08-2"
+            },
+            {
+              "DoFlame": 15,
+              "SeName": "_zbtl_10"
+            },
+            {
+              "DoFlame": 20,
+              "SeName": "_zbtl_10"
+            }
+          ]
+        },
+        {
+          "Name": "btl_84",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_10"
+            },
+            {
+              "DoFlame": 20,
+              "SeName": "_zbtl_11"
+            },
+            {
+              "DoFlame": 40,
+              "SeName": "_zbtl_11"
+            },
+            {
+              "DoFlame": 10,
+              "SeName": "_zbtl_10"
+            },
+            {
+              "DoFlame": 30,
+              "SeName": "_zbtl_10"
+            }
+          ]
+        },
+        {
+          "Name": "btl_85",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_86",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_87",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele"
+            }
+          ]
+        },
+        {
+          "Name": "btl_88",
+          "Setumei": "",
+          "ZureX": -80,
+          "ZureY": -30,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_89",
+          "Setumei": "",
+          "ZureX": 150,
+          "ZureY": -150,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_90",
+          "Setumei": "",
+          "ZureX": 250,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff4",
+      "ptc_Datas": [
+        {
+          "Name": "btl_91",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_92",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "btl_93",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_94",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_95",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_96",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_97",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_98",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_99",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_100",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_101",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 5,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 6,
+              "SeName": "_zLight2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_102",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_103",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_104",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_105",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_106",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_8"
+            }
+          ]
+        },
+        {
+          "Name": "btl_107",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zKuitigi"
+            }
+          ]
+        },
+        {
+          "Name": "btl_108",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_109",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_110",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zHellCast"
+            }
+          ]
+        },
+        {
+          "Name": "btl_111",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_112",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_113",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGrnd1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_114",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zHellCast"
+            }
+          ]
+        },
+        {
+          "Name": "btl_115",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark6"
+            }
+          ]
+        },
+        {
+          "Name": "btl_116",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire4"
+            },
+            {
+              "DoFlame": 2,
+              "SeName": "_zfire5"
+            },
+            {
+              "DoFlame": 3,
+              "SeName": "BO-hasai01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_117",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_2"
+            },
+            {
+              "DoFlame": 2,
+              "SeName": "_zbtl_13"
+            },
+            {
+              "DoFlame": 3,
+              "SeName": "_zbtl_14"
+            }
+          ]
+        },
+        {
+          "Name": "btl_118",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_119",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_120",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight3"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "_zExBomb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff5",
+      "ptc_Datas": [
+        {
+          "Name": "btl_121",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_122",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_123",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zNakigoe"
+            }
+          ]
+        },
+        {
+          "Name": "btl_124",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zNakigoe"
+            }
+          ]
+        },
+        {
+          "Name": "btl_125",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zNakigoe"
+            }
+          ]
+        },
+        {
+          "Name": "btl_126",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_127",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight6"
+            }
+          ]
+        },
+        {
+          "Name": "btl_128",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_129",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight6"
+            }
+          ]
+        },
+        {
+          "Name": "btl_130",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight6"
+            }
+          ]
+        },
+        {
+          "Name": "btl_131",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zPlanta"
+            }
+          ]
+        },
+        {
+          "Name": "btl_132",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_133",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_134",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_135",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zSanda1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_136",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_137",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_138",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_10"
+            }
+          ]
+        },
+        {
+          "Name": "btl_139",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_140",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_141",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "btl_142",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark6"
+            }
+          ]
+        },
+        {
+          "Name": "btl_143",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_144",
+          "Setumei": "魂の盾",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_145",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_146",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_147",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight5"
+            }
+          ]
+        },
+        {
+          "Name": "btl_148",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_149",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_150",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff6",
+      "ptc_Datas": [
+        {
+          "Name": "btl_151",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_152",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_153",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_154",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_155",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_156",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_157",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_11"
+            },
+            {
+              "DoFlame": 2,
+              "SeName": "_zWind3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_158",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_159",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_14"
+            }
+          ]
+        },
+        {
+          "Name": "btl_160",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark6"
+            }
+          ]
+        },
+        {
+          "Name": "btl_161",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_162",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_163",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_164",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGas1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_165",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire5"
+            },
+            {
+              "DoFlame": 2,
+              "SeName": "Explosion1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_166",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_167",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_168",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWater3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_169",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_170",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_171",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind3"
+            }
+          ]
+        },
+        {
+          "Name": "btl_172",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zKuitigi"
+            }
+          ]
+        },
+        {
+          "Name": "btl_173",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_174",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_175",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele"
+            }
+          ]
+        },
+        {
+          "Name": "btl_176",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zWind1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_177",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_178",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_179",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zGas1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_180",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_181",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_182",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_183",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_184",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_185",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "MapEff",
+      "ptc_Datas": [
+        {
+          "Name": "CrtlRedKira",
+          "Setumei": "クリスタルレッド",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "CrtlRedKira_Y",
+          "Setumei": "クリスタルレッド",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "FreaKira2",
+          "Setumei": "フレアキラ２",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "FreaKira",
+          "Setumei": "フレアキラキラ",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "KakuseiKira",
+          "Setumei": "覚醒キラキラ",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "TrsKira",
+          "Setumei": "テレサキラキラ",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "YumeEff",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "PlayerBloo",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "YumeEff_2",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "YumeEff_3",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Yume_Warp",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Yume_Warp_m",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "LastBtlEff",
+          "Setumei": "最終戦闘エフェクト",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "LastBtlEff_2",
+          "Setumei": "最終戦闘エフェクト",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "YumeEff_Mizu",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "DLC2BtlEff",
+          "Setumei": "最終戦闘エフェクト",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "DLC2BtlEff2",
+          "Setumei": "最終戦闘エフェクト",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "DLC2YureEff",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "TamaKira",
+          "Setumei": "フレアキラキラ",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "BtlState",
+      "ptc_Datas": [
+        {
+          "Name": "Ijo_Touketu",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "Ijo_Enjou",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zfire1"
+            }
+          ]
+        },
+        {
+          "Name": "Ijo_Doro",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_2"
+            }
+          ]
+        },
+        {
+          "Name": "Ijo_Sibire",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zele"
+            }
+          ]
+        },
+        {
+          "Name": "Ijo_Kirikizu",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zbtl_5"
+            }
+          ]
+        },
+        {
+          "Name": "Ijo_Noroi",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zdark1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff7",
+      "ptc_Datas": [
+        {
+          "Name": "btl_186",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_187",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_188",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_189",
+          "Setumei": "未来への翼：爆発直前光",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "btl_189_2",
+          "Setumei": "未来への翼：爆発",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zExBomb"
+            }
+          ]
+        },
+        {
+          "Name": "btl_189_3",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zBuff"
+            }
+          ]
+        },
+        {
+          "Name": "btl_189_4",
+          "Setumei": "青光",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_189_5",
+          "Setumei": "未来への翼：全体流れる光",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zWind4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_190",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_191",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "btl_191_2",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "BtlCtrHit"
+            }
+          ]
+        },
+        {
+          "Name": "btl_192",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "btl192_2",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zele"
+            }
+          ]
+        },
+        {
+          "Name": "btl192_3",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zele"
+            }
+          ]
+        },
+        {
+          "Name": "btl_193",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "ice_Hissatu"
+            }
+          ]
+        },
+        {
+          "Name": "btl_194",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_195",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "BO-mbakuhatu01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_195_2",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_196",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "BP-kougeki06"
+            }
+          ]
+        },
+        {
+          "Name": "btl_197",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_197_1",
+          "Setumei": "薙ぎ払い業：",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "BO-hasai01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_197_2",
+          "Setumei": "薙ぎ払い業：",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "BO-hasai01"
+            }
+          ]
+        },
+        {
+          "Name": "btl_197_3",
+          "Setumei": "薙ぎ払い業：",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zele2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_197_4",
+          "Setumei": "薙ぎ払い業：",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zdark4"
+            }
+          ]
+        },
+        {
+          "Name": "btl_197_5",
+          "Setumei": "薙ぎ払い業：",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 5,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 10,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 15,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 20,
+              "SeName": "_zLight"
+            }
+          ]
+        },
+        {
+          "Name": "btl_197_6",
+          "Setumei": "薙ぎ払い業：爆発",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_198",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zfire2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_198_2",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_198_3",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zdark1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_198_4",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_198_5",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_199",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "_zdark1"
+            }
+          ]
+        },
+        {
+          "Name": "btl_200",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "NNsword2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_201",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 0,
+              "SeName": "NNsword2"
+            }
+          ]
+        },
+        {
+          "Name": "btl_202",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "DLC2Eff",
+      "ptc_Datas": [
+        {
+          "Name": "SanLight",
+          "Setumei": "太陽の光",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "Sunaarasi",
+          "Setumei": "砂嵐",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    },
+    {
+      "Name": "BtlEff8",
+      "ptc_Datas": [
+        {
+          "Name": "btl_203",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "_zExBomb"
+            }
+          ]
+        },
+        {
+          "Name": "btl_204",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "_zExBomb"
+            }
+          ]
+        },
+        {
+          "Name": "btl_205",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_206",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_207",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_208",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_209",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_210",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "_zExBomb"
+            }
+          ]
+        },
+        {
+          "Name": "btl_211",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": [
+            {
+              "DoFlame": 1,
+              "SeName": "_zLight"
+            },
+            {
+              "DoFlame": 1,
+              "SeName": "_zExBomb"
+            }
+          ]
+        },
+        {
+          "Name": "btl_212",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_213",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_214",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_215",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_216",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_217",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_218",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_219",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        },
+        {
+          "Name": "btl_220",
+          "Setumei": "",
+          "ZureX": 0,
+          "ZureY": 0,
+          "ptc_Ses": []
+        }
+      ]
+    }
+  ]
+}
